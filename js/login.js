@@ -4,10 +4,10 @@ document.getElementById('btn-submit').addEventListener('click',function(){
     const passField=document.getElementById('user-password').value
     
     if(emailField==='sontan@baap.com' && passField ==='secret'){
-        console.log('valid user')
+        window.location.href='bank.html'
     }
     else{
-        console.log('invalid user')
+        alert('Password vull dichos ')
     }
 
     console.log(emailField,passField)
